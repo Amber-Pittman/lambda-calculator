@@ -1,10 +1,10 @@
 import React from "react";
 
 //import any components needed
-
+import SpecialButton from "./SpecialButton";
 //Import your array data to from the provided data file
-
-const Specials = () => {
+import {specials} from "../../../data";
+const Specials = (props) => {
   // STEP 2 - add the imported data to state
 
   return (
@@ -15,3 +15,5 @@ const Specials = () => {
     </div>
   );
 };
+
+export default Specials;
