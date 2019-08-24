@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 //import any components needed
 import NumberButton from "./NumberButton";
@@ -6,6 +6,7 @@ import NumberButton from "./NumberButton";
 import {numbers} from "../../../data";
 const Numbers = () => {
   // STEP 2 - add the imported data to state
+  const [buttonNumbers, setButtonNumbers] = useState(numbers);
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
