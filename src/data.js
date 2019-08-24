@@ -5,9 +5,8 @@
 // and how you'll access the data.
 import "./index.css";
 import "./App.js";
-import Display from "./components/DisplayComponents/Display"
 
-const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."];
+export const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."];
 
 const operators = [
   {
@@ -33,3 +32,4 @@ const operators = [
 ];
 
 const specials = ["C", "+/-", "%"];
+
