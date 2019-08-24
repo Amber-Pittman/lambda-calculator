@@ -3,11 +3,9 @@
 // Export them as necessary and import each array into its appropriate
 // file. No real tricks here just be aware of what is in each array
 // and how you'll access the data.
-import React from "react";
-import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
-import Index from "./index";
+import "./App.js";
+import Display from "./components/DisplayComponents/Display";
 
 const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."];
 
