@@ -1,5 +1,5 @@
 import React from "react";
-import "./Specials.css";
+import "./SpecialButtons/specials.css";
 
 //import any components needed
 import SpecialButton from "./SpecialButton";
